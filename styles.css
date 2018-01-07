@@ -1,0 +1,368 @@
+/* styles .css*/
+html,
+body {
+  height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 40px;
+}
+
+.subcategory {
+  color: #292b2c;
+}
+
+.second {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.solo {
+  visibility: hidden;
+  height: 0px;
+}
+
+/*cover*/
+
+/*#cover {
+    background-image: url("img/stars.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#cover-caption {
+  height: 100%;
+}*/
+
+
+.section-content {
+  padding: 5vw 0;
+}
+
+/*.navbar {
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  width: 100%;
+}*/
+.navbar {
+  margin-top: 2rem;
+}
+
+.navbar-brand {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 30px;
+  color: white;
+}
+
+.navbar-link {
+  color: white;
+}
+
+.container {
+  margin-top: .5rem;
+}
+
+#about {
+  background: url("img/TJ1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  margin-bottom: -12vh;
+  overflow: scroll;
+}
+
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+
+.safe-padding {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.port-image {
+  background-color: #E8E8E8;
+}
+
+.about-text .passion {
+  font-weight: lighter;
+}
+
+.about-text {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 1.875rem;
+}
+
+#what-we-do {
+  background-color: rgba(20, 20, 20, 0.10);
+}
+
+#news {
+  background-image: url('img/NewHaven2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-columns {
+  margin-bottom: -5rem;
+}
+
+#footer-main {
+  background: #222;
+  color: white;
+  font-size: 0.8rem;
+  padding: 2.5rem 0;
+}
+
+.email {
+  font-size: 15px;
+  word-wrap: break-word;
+}
+
+.tj2 {
+  opacity: .85;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	/*height: 70px;
+	z-index: 1;*/
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 350px;
+}
+
+.affix + .container {
+      padding-top: 70px;
+  }
+  .shine_me{
+      cursor:pointer;
+      margin-bottom:10px;
+      }
+
+  .shine_me:hover .shine_effect {
+    /*   positioning */
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    /*   gradient   */
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(1%, rgba(255, 255, 255, 0.03)), color-stop(30%, rgba(255, 255, 255, 0.85)), color-stop(50%, rgba(255, 255, 255, 0.85)), color-stop(70%, rgba(255, 255, 255, 0.85)), color-stop(71%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+    /* IE6-9 */
+    /*  forming the shine element
+        play around with the width, skew and gradient to get different effects
+      */
+    width: 15%;
+    height: 100%;
+    transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    -moz-transform: skew(-10deg, 0deg);
+    -ms-transform: skew(-10deg, 0deg);
+    -o-transform: skew(-10deg, 0deg);
+    /*  animating it  */
+    animation: move 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    -webkit-animation: move 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s;
+    -moz-transform: skew(-10deg, 0deg);
+    -moz-animation: move 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-delay: 1s;
+    -ms-transform: skew(-10deg, 0deg);
+    -ms-animation: move 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-delay: 1s;
+    -o-transform: skew(-10deg, 0deg);
+    -o-animation: move 2s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-delay: 1s;
+  }
+
+  /*  */
+  @keyframes move {
+    0% {
+      left: 0;
+      opacity: 0;
+    }
+    5% {
+      opacity: 0.0;
+    }
+    48% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 0.0;
+    }
+    100% {
+      left: 82%;
+    }
+  }
+  @-webkit-keyframes move {
+    0% {
+      left: 0;
+      opacity: 0;
+    }
+    5% {
+      opacity: 0.0;
+    }
+    48% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 0.0;
+    }
+    100% {
+      left: 82%;
+    }
+  }
+  @-moz-keyframes move {
+    0% {
+      left: 0;
+      opacity: 0;
+    }
+    5% {
+      opacity: 0.0;
+    }
+    48% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 0.0;
+    }
+    100% {
+      left: 88%;
+    }
+  }
+  @-ms-keyframes move {
+    0% {
+      left: 0;
+      opacity: 0;
+    }
+    5% {
+      opacity: 0.0;
+    }
+    48% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 0.0;
+    }
+    100% {
+      left: 82%;
+    }
+  }
+  @-o-keyframes move {
+    0% {
+      left: 0;
+      opacity: 0;
+    }
+    5% {
+      opacity: 0.0;
+    }
+    48% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 0.0;
+    }
+    100% {
+      left: 82%;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .quote {
+    visibility: hidden;
+  }
+
+/*// MEDIA QUERIES*/
+
+@media only screen and (max-width: 767px) {
+
+.about-text {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  background-color:  rgba(51, 51, 50, 0.7);
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 575px) {
+
+.port-image{
+  visibility: hidden;
+  height: 0;
+}
+
+.solo {
+  visibility: visible;
+  height: auto;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  #about {
+    background: url("img/TJ1.png");
+    background-repeat: no-repeat;
+    background-size: 800px 700px;
+    background-position: center;
+    overflow: scroll;
+    background-attachment: fixed;
+  }
+
+  .about-text {
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    background-color:  rgba(51, 51, 50, 0.7);
+    margin-top: 50px;
+  }
+}
