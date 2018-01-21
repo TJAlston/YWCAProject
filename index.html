@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Tameka J. Alston - Web Developer</title>
+    <title>YWCA Prototype</title>
     <JQUERY>
       <script src="//code.jquery.com/script.js"></script>
 
@@ -16,7 +16,9 @@
        <script src="script.js"></script>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet">
@@ -33,275 +35,144 @@
   <body>
      <script src="index_bundle.js"></script>
 
-    <section id="about">
-      <div class="section-content container-fluid">
-        <div class="container">
-          <div class="col-md-6">
-            <div class="about-text">
-              <h3 class="center">Tameka J. Alston</h3>
-              <p class="lead">I am a self-taught Web Designer and Graphic Designer based in Connecticut with a Bachelor's of Arts Degree in Communication Studies from the University of North Carolina at Wilmington.</p>
-              <p class="passion">Web Designing and Graphic Designing have been a passion of mine for over 20 years. I started learning how to code on social media sites at the age of 13. </p>
-
-              <!-- <h5>Follow Me on the Web</h5>
-              <a href="https://www.linkedin.com/in/tamekajalston/" class="btn btn-sm btn-secondary">LinkedIn</a>
-              <a href="https://twitter.com/Mirage_Music" class="btn btn-sm btn-secondary">Twitter</a>
-              <a href="https://www.instagram.com/tjalston.webdzyn/" class="btn btn-sm btn-secondary">Instagram</a> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- NavBar -->
-        <nav class="navbar navbar-inverse navbar-toggleable-md navbar-full bg-inverse" data-spy="affix" data-offset-top="197">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#about">Tameka J. Alston</a>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#photoGallery">My Work<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#what-we-do">Skills</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#news">Contact</a>
-                </li>
-              </ul>
-          </div>
-        </nav>
+    <nav class="navbar navbar-default navbar-fixed-top">
+             <div class="container-fluid">
+               <div class="navbar-header">
+                 <button type="button" class="navbar-toggle collapsed  dropdown-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                 </button>
+                 <a class="navbar-brand" href="#"><img src="img/ywcalogo.png" alt="YWCA.logo" height="50"></a>
+               </div>
+               <div id="navbar" class="navbar-collapse collapse">
+                 <ul class="nav navbar-nav navbar-right">
+                   <li><a class="fcolor" href="#homepage">home</a></li>
+                   <li><a class="fcolor" href="#feature-three">who we are</a></li>
+                   <li><a class="fcolor" href="#feature-four">what we do</a></li>
+                   <li><a class="fcolor" href="#feature-five">news & events</a></li>
+                 </ul>
+               </div>
+             </div>
+           </nav>
 
-
-<!-- Photo Gallery -->
-<section id="photoGallery" class="center-block">
-  <div class="port-image">
-    <img class="port center-block safe-padding" src="img/PortfolioResponsive.png" alt="Responsive Portfolio" />
-  </div>
-  <div class="solo">
-    <img class="solobebe" src="img/solobebe.png">
-    <img class="solonat" src="img/soloNaturalista.png">
-    <img class="solocolor" src="img/solocolorfullips.png">
-  </div>
+    <!-- Home Page -->
+<section id="homepage">
   <div class="container">
-  	<div class="row">
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-          <img src="img/VIGORFM1.png" class="img-responsive"/>
-          <i class="shine_effect"></i>
-	    </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-          <img src="img/ForestFitnessL.png" class="img-responsive"/>
-          <i class="shine_effect"></i>
-	    </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-          <img src="img/spartan.png" class="img-responsive"/>
-          <i class="shine_effect"></i>
-	    </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-          <img src="img/NaturalistaL.png" class="img-responsive"/>
-          <i class="shine_effect"></i>
-	    </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-          <img src="img/RightSize.png" class="img-responsive"/>
-          <i class="shine_effect"></i>
-	    </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-          <img src="img/YellowDucky.png" class="img-responsive"/>
-          <i class="shine_effect"></i>
-	    </div>
-  	</div>
-  </div>
-</section>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
-<section id="what-we-do">
-  <div class="section-content">
-    <div class="container">
-      <h3 class="subcategory">Technical Skills</h3>
-      <p class="Lead">I have a plethora of technical experience using multiple softwares and languages.</p>
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="card-group">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Basic Technology</h4>
-              <h6 class="card-subtitle second">General Office Knowledge</h6>
-            </div>
-            <img src="img/computer.jpg" alt="A computer">
-            <div class="card-block">
-              <p class="card-text">
-                <ul>
-                  <li>MAC OS and Windows XP</li>
-                  <li>Microsoft Outlook</li>
-                  <li>Microsoft Excel</li>
-                  <li>Microsoft Word</li>
-                  <li>Microsoft PowerPoint</li>
-                  <li>Microsoft Publisher</li>
-                  <li>Microsoft Lync / Skype for Business</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Web Development</h4>
-              <h6 class="card-subtitle second">Front End Engineering Knowledge</h6>
-            </div>
-            <img src="img/coding.jpeg" alt="Working on a laptop">
-            <div class="card-block">
-              <p class="card-text">
-                <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>Sass</li>
-                  <li>Bootstrap</li>
-                  <li>Wordpress</li>
-                  <li>PHP</li>
-                </ul>
-                </p>
-            </div>
-          </div>
-        <div class="card">
-          <div class="card-block">
-            <h4 class="card-title">Logo Design and Prototyping</h4>
-            <h6 class="card-subtitle second">Graphic Design and Web Prototyping Knowledge</h6>
-          </div>
-          <img src="img/wireframing.jpeg" alt="Programming from a laptop">
-          <div class="card-block">
-            <p class="card-text">
-              <ul>
-              <li>Adobe Illustrator</li>
-              <li>Adobe Photoshop</li>
-              <li>Adobe InDesign</li>
-              <li>Adobe Experience Design</li>
-              <li>Adobe Bridge</li>
-              <li>Adobe After Effects*</li>
-              <br>
-              <br>
-              <br>
-              <small class="text-muted"> *Currently Learning</small>
-              </ul> </p>
-          </div>
-        </div>
-        </div>
-      </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section id="news">
-  <div class="section-content">
-    <div class="container">
-      <h3 class="subcategory">Need to Contact Me?</h3>
-      <hr>
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="card-columns">
-          <div class="card">
-            <img class="card-img-top img-fluid tj2" src="img/TJ2.png" alt="TJ on Laptop">
-            <div class="card-block">
-              <h4 class="card-title">Email Me:</h4>
-              <p class="card-text"><a class="email" href="mailto:tjalston82@yahoo.com?subject=feedback">TJALSTON82@YAHOO.COM</a></p>
-            </div>
-          </div>
-          <div class="card p-3 quote">
-            <blockquote class="card-block card-blockquote">
-              <p>&ldquo;The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.&rdquo;</p>
-              <footer>
-                <small class="text-muted">
-                  Steve Jobs
-                </small>
-              </footer>
-            </blockquote>
-          </div>
-          <div class="card">
-            <img class="card-img-top img-fluid" src="img/oncell.jpg" alt="Looking under the stars">
-            <div class="card-block">
-              <h4 class="card-title">Call Me:</h4>
-              <p class="card-text">813-727-6091</p>
-            </div>
-          </div>
-          <!-- <div class="card">
-              <div class="card-block">
-                <h4 class="card-title">View Resume:</h4>
-                <p class="card-text btn btn-sm btn-secondary"><a href="https://drive.google.com/file/d/0B_KEXJx9Finfa0twUkY1QTV5VGM/view?usp=sharing">RESUME</a></p>
-              </div>
-          </div> -->
-          <div class="card p-3 card-info quote">
-            <blockquote class="card-block card-blockquote card-inverse">
-              <p>&ldquo;The first step is you have to say that you can.&rdquo;</p>
-              <footer>
-                <small class="text-muted">
-                  Will Smith
-                </small>
-              </footer>
-            </blockquote>
-          </div>
-          <!-- <hr> -->
-          <div class="card">
-            <img class="card-img img-fluid" src="img/computer.jpg" alt="desktop with computer on it">
-            <div class="card-block">
-              <h4 class="card-title">Check Me Out <br>on Social Media:</h4>
-              <p class="card-text">
-                <ul class="list-unstyled">
-                  <li><a href="https://github.com/TJAlston">GitHub</a></li>
-                  <li><a href="https://www.linkedin.com/in/tamekajalston/">LinkedIn</a></li>
-                  <li><a href="https://twitter.com/Mirage_Music">Twitter</a></li>
-                  <li><a href="https://www.instagram.com/tjalston.webdzyn">Instagram</a></li>
-                </ul></p>
-            </div>
-          </div>
-          <div class="card card-block text-xs-right card-warning card-inverse quote">
-            <blockquote class="card-blockquote">
-              <p>&ldquo;The greatest discovery of all time is that a person can change his future by merely changing his attitude.&rdquo;</p>
-              <footer>
-                <small class="text-muted">
-                  Oprah Winfrey
-                </small>
-              </footer>
-            </blockquote>
-          </div>
-            <!-- <hr> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer id="footer-main">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <p>&copy;2018 Tameka J. Alston</a></p>
-      </div>
-      <!-- <div class="col-sm-3">
-        <ul class="list-unstyled">
-          <li><a href="#cover">Home</a></li>
-          <li><a href="#what-we-do">What We Do</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#news">Latest</a></li>
+      <!-- Card Links -->
+    <div class="links bck">
+      <div class="card">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item btn">Donate</li>
+          <li class="list-group-item btn">Act</li>
+          <li class="list-group-item btn">Connect</li>
         </ul>
       </div>
-      <div class="col-sm-3">
-      <ul class="list-unstyled">
-        <li><a href="">Facebook</a></li>
-        <li><a href="">Twitter</a></li>
-        <li><a href="">YouTube</a></li>
-        <li><a href="">LinkedIn</a></li>
-      </ul>
+    </div>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active homepic">
+          <img class="large" src="img/teacher2.jpg" alt="teacher">
+        </div>
+
+        <div class="item homepic">
+          <img class="large" src="img/teacher3.jpg" alt="teacher3">
+        </div>
+
+        <div class="item homepic">
+          <img src="img/teacher1.jpg" alt="teacher1">
+        </div>
       </div>
-      <div class="col-sm-3">
-        <h6>Tiny Header</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div> -->
+
+      <!-- Left and right controls -->
+      <a class="carousel-control" href="#myCarousel" data-slide="prev">
+        <!-- <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span> -->
+      </a>
+      <a class="carousel-control" href="#myCarousel" data-slide="next">
+        <!-- <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span> -->
+      </a>
+    </div>
   </div>
+  <div class="list" />
+</section>
+
+<section id="feature-three">
+  <div class="welcome">
+    <h2 class="welcomeh2"> Welcome to YWCA New Haven Region</h2>
+    <h3>YWCA New Haven Region is dedicated to eliminating racism, empowering women and promoting peace, justice, freedom and dignity for all. We believe that every woman, every girl and every child deserves the opportunity to shine at each stage of life. </h3>
+    <a href="#" class="btn btn-info" role="button">Learn More</a>
+</section>
+
+<section id="feature-four">
+  <div class="childcare">
+    <!-- <img class="kids" src="img/Childcare.png"> -->
+    <h2 class="cwhite">Childcare Programs</h2>
+    <h3 class="cwhite"> While you're at work, you want your children in a program where they'll be safe, learn and have fun. </h3>
+    <div class="childbuttons">
+      <a href="#" class="btn btn-info btn-dark" role="button">Early Learning</a>
+      <a href="#" class="btn btn-info btn-dark" role="button">School Age</a>
+    </div>
+  </div>
+</section>
+
+<section id="feature-five">
+  <div class="getinvolved">
+    <h4 class="cwhite">Watch our videos and <br>learn about us</h2>
+    <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/8_SdAl48y0k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="eventsNews">
+    <div class="events">
+      <h4 class="cwhite"> Events </h4>
+      <p> Volunteer on #GivingTuesday!</p>
+      <a href='#'>Click here to see events</a>
+    </div>
+    <div class="news">
+      <h4 class="cwhite"> News </h4>
+      <p> Out In The Cold: Lack Of Shelter Beds Forces New Haven's Homeless Women To The Streets. <a href="#">View Article</a></p>
+      <a href='#'>Click here to see events</a>
+    </div>
+   </div>
+</section>
+
+
+<footer id="main-footer">
+  <!-- <div class="container"> -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-6">
+          <img src="img/ywcalogo.png" height="60" width="100">
+          <p class="cwhite small">YWCA New Haven Region<br>
+             135 Broad Street New Haven, CT 06511<br>
+             CALL: (860) 525-1163<br>
+             FAX: (860) 543-8919</p>
+        </div>
+        <div class="col-md-6 socialMedia row pull-right">
+            <h5 class="cwhite stay"><u>STAY CONNECTED</u></h3>
+            <a href="https://www.facebook.com/YWCAHartfordRegion"><img src="img/facebook.png" height="40" width="40" alt="Facebook"></a>
+            <a href="https://twitter.com/YWCAHARTFORD"><img src="img/twitter.png" height="40" width="40" alt="Twitter"></a>
+            <a href="https://www.pinterest.com/ywcahartford/"><img src="img/pintrest.png" height="40" width="40" alt="Pinterest"></a>
+            <a href="https://plus.google.com/117749736248254797506"><img src="img/google.png" height="40" width="40" alt="Google Plus"></a>
+            <a href="https://www.linkedin.com/company/ywca-hartford-region/"><img src="img/linkedin.png" height="40" width="40" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
 </footer>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
