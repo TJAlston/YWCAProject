@@ -63,6 +63,11 @@ h5 {
   align-items: baseline;
 }
 
+.collapse {
+  background-color: #ff6633;
+  border: none;
+}
+
 /*HOMEPAGE*/
 
 #homepage {
@@ -270,6 +275,9 @@ h5 {
     .childbuttons {
       visibility: hidden;
     }
+    .early {
+      margin-bottom: 50px;
+    }
     #feature-five {
       padding: 0;
       margin: 0;
@@ -291,6 +299,9 @@ h5 {
       padding: 0;
       height: 300px;
       width: 400px;
+    }
+    .eventsNews {
+      margin-left: 0px;
     }
     .row {
       align-content: center;
