@@ -6,6 +6,15 @@ body {
   padding-top: 90px;
 }
 
+h1 {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  color: #ff6633;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
 h2 {
   font-family: "Source Sans Pro";
   font-weight: bold;
@@ -33,6 +42,12 @@ h5 {
   font-weight: bold;
   font-size: 25px;
   letter-spacing: 2px;
+}
+
+.textCenter {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .cell {
@@ -91,7 +106,7 @@ h5 {
   margin: 0;
   margin-top: -100px;
   position: fixed;
-  z-index: -2;
+  z-index: -1;
   overflow-y: scroll;
 }
 
@@ -136,6 +151,7 @@ h5 {
 #feature-three {
   background-color: rgba(255, 255, 255, 0.65);
   padding: 100px 100px;
+  z-index: 2;
 }
 
 .welcome {
@@ -218,6 +234,24 @@ h5 {
   width: 400px;
   margin-left: 50px;
 }
+
+
+/*Learn More*/
+
+#learnMore {
+  padding: 50px 150px;
+}
+
+.fillOut {
+  padding: 50px 150px 75px 150px;
+  background-color: rgb(217, 222, 218);
+  margin: 20px 100px;
+}
+
+#form {
+  padding-bottom: 50px;
+}
+
 
 /*FOOTER */
 
